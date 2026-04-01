@@ -1,0 +1,5 @@
+{
+  "name": "deepwiki",
+  "version": "1.0.0",
+  "description": "AI-powered documentation for GitHub repositories via DeepWiki MCP. Browse wiki structure, read documentation, and ask questions about any public repository."
+}

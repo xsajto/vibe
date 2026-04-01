@@ -1,0 +1,5 @@
+{
+  "name": "grafana-skill",
+  "version": "1.0.0",
+  "description": "Interact with Grafana API for dashboards, datasources, alerting, annotations, users, and teams management."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "researching-web-skill",
+  "version": "2.0.0",
+  "description": "Experimental web research agent using open-webSearch (free, no API key). Search the web, fetch pages, and research topics. Activate via @web-researcher agent."
+}

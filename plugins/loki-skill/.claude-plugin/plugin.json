@@ -1,0 +1,5 @@
+{
+  "name": "loki-skill",
+  "version": "1.0.0",
+  "description": "Query Loki log aggregation system via LogQL for log exploration, analysis, and troubleshooting."
+}

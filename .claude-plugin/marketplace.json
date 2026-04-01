@@ -1,0 +1,43 @@
+{
+  "name": "xsajto-vibe-skills",
+  "owner": {
+    "name": "xsajto",
+    "email": ""
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code plugins for DevOps, monitoring, and research workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prometheus-skill",
+      "source": "./plugins/prometheus-skill",
+      "description": "Query and interact with Prometheus HTTP API for monitoring data. Supports instant queries, range queries, metadata endpoints, admin APIs, and alerting information."
+    },
+    {
+      "name": "grafana-skill",
+      "source": "./plugins/grafana-skill",
+      "description": "Interact with Grafana API for dashboards, datasources, alerting, annotations, users, and teams management."
+    },
+    {
+      "name": "loki-skill",
+      "source": "./plugins/loki-skill",
+      "description": "Query Loki log aggregation system via LogQL for log exploration, analysis, and troubleshooting."
+    },
+    {
+      "name": "researching-web-skill",
+      "source": "./plugins/researching-web-skill",
+      "description": "Experimental web research agent using open-webSearch (free, no API key). Activate via @web-researcher agent."
+    },
+    {
+      "name": "deepwiki",
+      "source": "./plugins/deepwiki",
+      "description": "AI-powered documentation for GitHub repositories via DeepWiki MCP. Browse wiki structure, read docs, and ask questions about any public repository."
+    },
+    {
+      "name": "nomad-stack",
+      "source": "./plugins/nomad-stack",
+      "description": "Manage HashiCorp Nomad workload scheduling and Consul service networking. Supports job specifications, cluster operations, service discovery, service mesh, and Nomad-Consul integration."
+    }
+  ]
+}

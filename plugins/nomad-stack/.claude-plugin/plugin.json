@@ -1,0 +1,5 @@
+{
+  "name": "nomad-stack",
+  "version": "1.0.0",
+  "description": "Manage HashiCorp Nomad workload scheduling and Consul service networking. Supports job specifications, cluster operations, service discovery, service mesh, and Nomad-Consul integration."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "prometheus-skill",
+  "version": "1.0.0",
+  "description": "Query and interact with Prometheus HTTP API for monitoring data. Supports instant queries, range queries, metadata endpoints, admin APIs, and alerting information."
+}
