@@ -2,18 +2,25 @@
 
 A Claude Code plugin marketplace for DevOps, monitoring, and research workflows.
 
-## Installation
-
-Add this marketplace and install plugins:
+## Quick Start
 
 ```bash
+# Install Claude Code (if you haven't already)
+npm install -g @anthropic-ai/claude-code
+
+# Add the marketplace
 /plugin marketplace add xsajto/vibe
+
+# Install all plugins
 /plugin install prometheus-skill@xsajto-vibe-skills
 /plugin install grafana-skill@xsajto-vibe-skills
 /plugin install loki-skill@xsajto-vibe-skills
+/plugin install nomad-stack@xsajto-vibe-skills
 /plugin install researching-web-skill@xsajto-vibe-skills
 /plugin install deepwiki@xsajto-vibe-skills
 ```
+
+Or install only the plugins you need — each one works independently.
 
 ## Plugins
 
@@ -23,6 +30,7 @@ Add this marketplace and install plugins:
 | [grafana-skill](plugins/grafana-skill/) | Interact with Grafana API for dashboards, datasources, alerting, and annotations | [julianobarbosa/claude-code-skills](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/grafana-skill) |
 | [loki-skill](plugins/loki-skill/) | Query Loki log aggregation system via LogQL | [julianobarbosa/claude-code-skills](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/loki-skill) |
 | [researching-web-skill](plugins/researching-web-skill/) | Web research using Perplexity AI for current information and best practices | [julianobarbosa/claude-code-skills](https://github.com/julianobarbosa/claude-code-skills/tree/main/skills/researching-web-skill) |
+| [nomad-stack](plugins/nomad-stack/) | Manage HashiCorp Nomad scheduling and Consul service networking | — |
 | [deepwiki](plugins/deepwiki/) | AI-powered docs for any public GitHub repo — browse structure, read docs, ask questions | [DeepWiki MCP](https://docs.devin.ai/work-with-devin/deepwiki-mcp) |
 
 ## Creating New Plugins
